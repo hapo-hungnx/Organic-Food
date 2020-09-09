@@ -1,0 +1,44 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto' sans-serif;
+  font-size: 16px;
+}
+
+.header {
+  border-top: 0.375rem solid $border-text;
+  border-bottom: 0.0625rem dotted black;
+}
+
+.contact {
+  font-size: 1rem;
+}
+
+.user {
+  background-color: $border-text;
+}
+
+.account {
+  span {
+    font-size: 1rem;
+  }       
+}
+
+.option {
+  transform: translate3d(0, 1.875rem, 0) !important;
+  left: -2.25rem !important;
+  box-shadow: 1px 5px 10px rgba(0,0,0,.35);
+
+  .item {
+    border-bottom:  0.0625rem dashed grey;
+
+    &:hover,
+    &:active,
+    &:focus,
+    &:visited {
+      color: $border-text;
+      background: transparent;
+    }
+  }
+}
